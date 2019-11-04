@@ -37,7 +37,6 @@ class _CertifyAppState extends State<CertifyApp> with TickerProviderStateMixin{
   // 初始化导航图标
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     // 将我们 bottomBar 上面的按钮图标对应的页面存放起来，方便我们在点击的时候
