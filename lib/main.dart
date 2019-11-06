@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_certification/base/Constant.dart';
+import 'package:flutter_certification/pages/home/flutter_webview.dart';
 import 'package:flutter_certification/pages/home/home_page.dart';
 import 'package:flutter_certification/pages/my/mypage.dart';
 
@@ -41,11 +43,11 @@ class _CertifyAppState extends State<CertifyApp> with TickerProviderStateMixin{
 
     // 将我们 bottomBar 上面的按钮图标对应的页面存放起来，方便我们在点击的时候
     _pageList = <StatefulWidget>[
-      new HomePage(),
+//      new HomePage(),
+      new FlutterWebView(),
       new MyPage()
     ];
     _currentPage = _pageList[_selectedIndex];
-
 
   }
   @override
