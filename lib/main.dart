@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_certification/pages/home/homepage.dart';
+import 'package:flutter_certification/pages/home/home_page.dart';
 import 'package:flutter_certification/pages/my/mypage.dart';
 
 void main() => runApp(MyApp());

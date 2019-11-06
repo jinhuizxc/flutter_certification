@@ -3,5 +3,7 @@
  * 定义常亮
  */
 class Constant{
-  var testIp56 = "http://www.56xd.com/smrz/";
+
+  static const testIp56 = "https://www.56xd.com/smrz/";
+
 }
